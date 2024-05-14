@@ -33,4 +33,4 @@ dbListFields(MyDataBase, 'CountryLanguage')
 
 DataDB <- dbGetQuery(MyDataBase, "select * from CountryLanguage")
 head(DataDB)
-hist(DataDB$Percentage)
+hist(DataDB$Percentage) # histogram
